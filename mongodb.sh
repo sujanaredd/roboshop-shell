@@ -1,4 +1,4 @@
-cp conflics/mongo.db.repo /etc/yum.repos.4/mongo.repo
+cp conflics/mongodb.repo /etc/yum.repos.4/mongo.repo
 yum install mongodb-org -y
 systemctl enable mongod
 systemctl start mongod
